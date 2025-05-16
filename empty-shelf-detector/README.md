@@ -71,7 +71,7 @@ results = model.predict(source="your_test_image.jpg", save=True, conf=0.5)
 ```
 empty-shelf-detector/
 ├── empty_shelf_detector_YOLOv8.ipynb   # End-to-end training & inference notebook
-├── best.pt                             # Trained model weights (if <100MB)
+├── best.pt                             # Trained model weights
 ├── requirements.txt                    # Required dependencies
 ├── README.md                           # Project documentation
 └── runs/
